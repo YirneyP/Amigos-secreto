@@ -6,7 +6,7 @@ let listaSorteados = [];
 let sorteoAleatorio =0;
 
 function registrarAmigo() {
-    let ingresaAmigos = document.querySelector("input").value;
+    let ingresaAmigos = document.querySelector("input").value.trim ();
     if (ingresaAmigos ==" ") {
         alert("ingresa un nombre")
         } else {
